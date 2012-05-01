@@ -1,0 +1,17 @@
+DESCRIPTION
+===========
+
+ddns-updater.sh is just a bash script aimimg at preforming those tedious dynamic dns updates on your behalf.
+It should depend only on the existence of basic commands and help you prevent having to download a bunch of dependencies just to preform such a task. In fact it should run even with dash... but I can't guarantee that.
+It should work with a minimal install of any linux system althoug testing with as many operating systems as possible would be much appreciated.
+
+USAGE
+=====
+
+Just stick it in a directory you can reach, chmod it 700 and execute it.
+It should preform some basic tests first, to see if anything is missing or missconfigured, and it should warn you if it finds something odd. Then executes.
+You can set up a cron job to do it every hour or so for you, so you don't have to do it yourself.
+
+Heve fun !
+
+;-)
